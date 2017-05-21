@@ -14,7 +14,7 @@ from logbook import Logger
 try:
     import configparser
 except ImportError:
-    import ConfigParser as configparser
+    import configparser as configparser
 from logbook import NestedSetup
 from logbook import NullHandler
 from logbook import TimedRotatingFileHandler
